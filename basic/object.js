@@ -14,6 +14,7 @@ var Orang = {
 
 // Cara membuat Object dalam Javascript
 // 1. Object Literal
+// Tidak efektif untuk objek yang banyak
 let mahasiswa = {
 	nama: 'Sandhika',
 	energi: 10,
@@ -46,3 +47,4 @@ function Mahasiswa(nama, nrp, email, jurusan) {
 var mhs4 = new Mahasiswa('Erick', '0043254', 'erik@icloud.com', 'Teknik Mesin');
 
 // 4. Object create
+// Contoh ada di energi.js
